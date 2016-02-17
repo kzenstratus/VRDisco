@@ -13,16 +13,20 @@ public class StreamMusic : MonoBehaviour {
 	public string url5;
 //	public string url2 = "/Music/leave_a_trace.ogg";
 
+	public AudioSource source1;
+
 	void Start(){
-		if (Application.platform == RuntimePlatform.Android) {
-			print ("Android");
-			url5 = "http://www.stephaniequinn.com/Music/Pachelbel%20-%20Canon%20in%20D%20Major.mp3";
-		} else if (Application.platform == RuntimePlatform.OSXEditor) {
-			print ("On the mac");
-			url5 = "http://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg";
-		} else if (Application.platform == RuntimePlatform.OSXPlayer) {
-			url5 = "http://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg";
-		}
+//		if (Application.platform == RuntimePlatform.Android) {
+//			print ("Android");
+//			url5 = "http://www.stephaniequinn.com/Music/Pachelbel%20-%20Canon%20in%20D%20Major.mp3";
+//		} else if (Application.platform == RuntimePlatform.OSXEditor) {
+//			print ("On the mac");
+//			url5 = "http://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg";
+//		} else if (Application.platform == RuntimePlatform.OSXPlayer) {
+//			url5 = "http://upload.wikimedia.org/wikipedia/en/4/45/ACDC_-_Back_In_Black-sample.ogg";
+//		}
+
+		url5 = "http://www.stephaniequinn.com/Music/Pachelbel%20-%20Canon%20in%20D%20Major.mp3";
 	}
 
 		void Update()
@@ -36,28 +40,37 @@ public class StreamMusic : MonoBehaviour {
 //		if (Input.GetKeyDown(KeyCode.B)) this.Tune(this.url2);
 	}
 
-		public void Tune(string url)
+	public void Tune(string url)
 	{
 		this.StopAllCoroutines();
-		this.StartCoroutine(this.__Tune(url5));
+		//this.StartCoroutine(this.__Tune(url5));
+//		this.StartCoroutine(this.__Tune("When I was your man"));
+
+
+		source1 = GetComponent<AudioSource>();
+		source1.clip = Resources.Load("When I was your man") as AudioClip;
+		source1.Play ();
 	}
-	IEnumerator __Tune(string url)
-	{
-		var www = new WWW(url);
-
-		var source = GetComponent<AudioSource>();
-
-//		source.clip = www.GetAudioClip (false, false, AudioType.OGGVORBIS);
-		source.clip = www.GetAudioClip (false, false);
-
+//	IEnumerator __Tune(string url)
+//	{
+////		var www = new WWW(url);
+////
+////		var source = GetComponent<AudioSource>();
+////
+//////	source.clip = www.GetAudioClip (false, false, AudioType.OGGVORBIS);
+////		source.clip = www.GetAudioClip (false, false);
+////
+//////
+////		while (!(source.clip.loadState == AudioDataLoadState.Loaded)) {
+////			yield return null;
+////		}
+////
+////		this.GetComponent<AudioSource>().clip = source.clip;
+////		this.GetComponent<AudioSource>().Play ();
 //
-		while (!(source.clip.loadState == AudioDataLoadState.Loaded)) {
-			yield return null;
-		}
-
-		this.GetComponent<AudioSource>().clip = source.clip;
-		this.GetComponent<AudioSource>().Play ();
-	}
+//
+//
+//	}
 
 }
 
