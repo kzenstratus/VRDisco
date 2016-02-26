@@ -1,0 +1,37 @@
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/UnityEngine.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/UnityEditor.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Mono.Cecil.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Unity.DataContract.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/obj/Debug/Assembly-CSharp.dll
+/Users/kevinzen/Documents/University of Chicago/Mobile_Computing/VRDisco/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/obj/Debug/Assembly-CSharp.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/UnityEditor.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Unity.DataContract.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/kevinzen/repos/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
