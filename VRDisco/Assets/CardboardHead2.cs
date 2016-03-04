@@ -67,6 +67,10 @@ public class CardboardHead2 : NetworkBehaviour {
 	/// during `Update()` by setting this to true.
 	public bool updateEarly = false;
 
+	CardboardHead head = null;
+
+	//GameObject playerObject;
+
 	/// Returns a ray based on the heads position and forward direction, after making
 	/// sure the transform is up to date.  Use to raycast into the scene to determine
 	/// objects that the user is looking at.
@@ -85,12 +89,12 @@ public class CardboardHead2 : NetworkBehaviour {
 		if (updateEarly) {
 			UpdateHead();
 		}
-		if(Cardboard.SDK.Triggered){
-			//what you want to happen when the user touches the screen
-			//			Camera.main.transform.Translate(Vector3.forward * Time.deltaTime);
-			//			var playerObject = GameObject.Find("Player");
-			//			playerObject.transform.Translate (Vector3.forward * Time.deltaTime);
-		}
+//		if(Cardboard.SDK.Triggered){
+//			//what you want to happen when the user touches the screen
+//			//			Camera.main.transform.Translate(Vector3.forward * Time.deltaTime);
+//			//			var playerObject = GameObject.Find("Player");
+//			//			playerObject.transform.Translate (Vector3.forward * Time.deltaTime);
+//		}
 	}
 
 	// Normally, update head pose now.
@@ -107,7 +111,7 @@ public class CardboardHead2 : NetworkBehaviour {
 		updated = true;
 		Cardboard.SDK.UpdateState();
 
-		//	var playerObject = GameObject.Find("Player");
+		//playerObject = GameObject.Find("Player");
 
 		if (trackRotation) {
 			var rot = Cardboard.SDK.HeadPose.Orientation;
@@ -117,14 +121,11 @@ public class CardboardHead2 : NetworkBehaviour {
 				transform.rotation = target.rotation * rot;
 			}
 		}
-
-//		if (trackPosition) {
-//			Vector3 pos = Cardboard.SDK.HeadPose.Position;
-//			if (target == null) {
-//				transform.localPosition = pos;
-//			} else {
-//				transform.position = target.position + target.rotation * pos;
-//			}
-//		}
+		head = Camera.main.GetComponent<StereoController>().Head;
+		if (trackPosition) {
+			Vector3 pos = Cardboard.SDK.HeadPose.Position;
+			transform.position = new Vector3 (head.transform.position.x, head.transform.position.y - 1, head.transform.position.z);
+		
+		}
 	}
 }
