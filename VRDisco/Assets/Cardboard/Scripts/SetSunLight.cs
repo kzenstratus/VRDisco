@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SetSunLight : MonoBehaviour {
 
-	public Renderer lightwall;
+//	public Renderer lightwall;
 
 	Material sky;
 
@@ -34,19 +34,19 @@ public class SetSunLight : MonoBehaviour {
 			lighton = !lighton;
 
 		}
-
-
+//
+//
 		if (lighton)
 		{
 			Color final = Color.white * Mathf.LinearToGammaSpace(5);
-			lightwall.material.SetColor("_EmissionColor", final);
-			DynamicGI.SetEmissive(lightwall, final);
+//			lightwall.material.SetColor("_EmissionColor", final);
+//			DynamicGI.SetEmissive(lightwall, final);
 		}
 		else
 		{
 			Color final = Color.white * Mathf.LinearToGammaSpace(0);
-			lightwall.material.SetColor("_EmissionColor", final);
-			DynamicGI.SetEmissive(lightwall, final);
+//			lightwall.material.SetColor("_EmissionColor", final);
+//			DynamicGI.SetEmissive(lightwall, final);
 		}
 	
 		Vector3 tvec = Camera.main.transform.position;
