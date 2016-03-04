@@ -85,6 +85,10 @@ public class CardboardHead2 : NetworkBehaviour {
 
 	void Update() {
 
+		if (!isLocalPlayer) {
+			return;
+		}
+
 		updated = false;  // OK to recompute head pose.
 		if (updateEarly) {
 			UpdateHead();
