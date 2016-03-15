@@ -45,7 +45,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Autowalk.cs" />
      <Compile Include="Assets\Cardboard\DemoScene\FPS.cs" />
      <Compile Include="Assets\Cardboard\DemoScene\Teleport.cs" />
      <Compile Include="Assets\Cardboard\Legacy\DemoScene\TeleportLegacyUI.cs" />
@@ -55,6 +54,7 @@
      <Compile Include="Assets\Cardboard\Legacy\Scripts\SkyboxMesh.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\StereoLensFlare.cs" />
      <Compile Include="Assets\Cardboard\Scripts\AutoIntensity.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Autowalk.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
