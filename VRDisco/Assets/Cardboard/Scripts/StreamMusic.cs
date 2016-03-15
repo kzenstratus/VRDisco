@@ -12,6 +12,7 @@ public class StreamMusic : NetworkBehaviour {
 	public string songName;
 
 //	public string songName;
+	[SyncVar]
 	int currentIndex;
 
 //	[SyncVar]
