@@ -69,6 +69,7 @@
      <Compile Include="Assets\Cardboard\Scripts\MusicViz.cs" />
      <Compile Include="Assets\Cardboard\Scripts\NameScript.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Net_Hud.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Net_Menu.cs" />
      <Compile Include="Assets\Cardboard\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
      <Compile Include="Assets\Cardboard\Scripts\RadialUndistortionEffect.cs" />

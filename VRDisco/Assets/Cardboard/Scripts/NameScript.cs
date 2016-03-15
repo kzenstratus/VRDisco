@@ -28,6 +28,8 @@ public class NameScript : NetworkBehaviour {
 		names.Add("Stephen");
 		names.Add("Klay");
 		names.Add("Draymond");
+		names.Add("Kobe");
+		names.Add("Michael");
 
 //		colors.Add (new Color(0.8F, 0.9F, 0.4F));
 //		colors.Add (new Color(0.1F, 0.7F, 0.1F));
@@ -41,8 +43,8 @@ public class NameScript : NetworkBehaviour {
 		textures.Add("images");
 		textures.Add("colors");
 		textures.Add("galaxy");
-		textures.Add("neon");
-		textures.Add("neon");
+		textures.Add("cubes");
+		textures.Add("shapes");
 
 
 		id = GetComponent<NetworkIdentity>().netId.Value;
