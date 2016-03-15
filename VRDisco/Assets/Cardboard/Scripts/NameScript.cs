@@ -39,12 +39,12 @@ public class NameScript : NetworkBehaviour {
 //		colors.Add (new Color(0.74F, 0.13F, 0.42F));
 
 		//Resources.Load("glass") as Texture;
+		textures.Add("cubes");
+		textures.Add("shapes");
 		textures.Add("pattern");
 		textures.Add("images");
 		textures.Add("colors");
 		textures.Add("galaxy");
-		textures.Add("cubes");
-		textures.Add("shapes");
 
 
 		id = GetComponent<NetworkIdentity>().netId.Value;
@@ -53,26 +53,11 @@ public class NameScript : NetworkBehaviour {
 		gameObject.transform.GetChild (0).GetComponent<TextMesh> ().text = names [((int)(id - 1)) % names.Count];
 	}
 
-	//
-//	[ClientRpc]
-//	public void RpcConnection(int con){
-//		//if (gameObject.transform.GetChild (0).GetComponent<TextMesh> ().text == " ") {
-//		if (!nameSet) {
-//			gameObject.transform.GetChild (0).GetComponent<TextMesh> ().text = names [con];
-//			nameSet = true;
-//		} else {
-//			return;
-//		}
-//		//}//
-//	}
 
 	// Update is called once per frame
 	void Update () {
 		gameObject.transform.GetChild(0).transform.position = new Vector3 (gameObject.transform.position.x, -1.8f, gameObject.transform.position.z);
-		//		if (Network.isServer) {
-		//			int numCon = Network.connections.Length;
-		//RpcConnection ();
-		//		}
+
 
 	}
 		
