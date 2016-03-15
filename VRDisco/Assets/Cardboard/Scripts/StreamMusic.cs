@@ -23,11 +23,16 @@ public class StreamMusic : NetworkBehaviour {
 
 	void Start(){
 		songs.Add("Faded");
+		songs.Add("Force");
+		songs.Add("Genesis");
 		songs.Add("Happiest man on earth");
 		songs.Add("Leave a trace");
+		songs.Add("No Gravity");
 		songs.Add("Open Season");
+		songs.Add("Runaway");
+		songs.Add("Say my name");
 		songs.Add("Surreal");
-		songs.Add("The Hum");
+		songs.Add("Wizard");
 	}
 
 

@@ -55,3 +55,21 @@
 /Users/Max/Desktop/branch network/VRDisco/VRDisco/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/Max/Desktop/branch network/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/Max/Desktop/branch network/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/obj/Debug/Assembly-CSharp.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/UnityEditor.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Assembly-UnityScript-firstpass.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Unity.DataContract.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/Max/Desktop/demo/VRDisco/VRDisco/Temp/bin/Debug/Mono.Cecil.Mdb.dll

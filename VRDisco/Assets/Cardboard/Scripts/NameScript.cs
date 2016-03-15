@@ -16,18 +16,27 @@ public class NameScript : NetworkBehaviour {
 
 	List<string> names = new List<string>();
 
+	List<Color> colors = new List<Color>();
+
 	void Start(){
 		//numConnections = -1;
-		names.Add("ONE");
-		names.Add("TWO");
-		names.Add("THREE");
-		names.Add("FOUR");
-		names.Add("FIVE");
-		names.Add("SIX");
-	
+		names.Add("Kevin");
+		names.Add("Max");
+		names.Add("Kwaku");
+		names.Add("Stephen");
+		names.Add("Klay");
+		names.Add("Draymond");
+
+		colors.Add (new Color(0.8F, 0.9F, 0.4F));
+		colors.Add (new Color(0.1F, 0.7F, 0.1F));
+		colors.Add (new Color(0.4F, 0.3F, 0.9F));
+		colors.Add (new Color(0.2F, 0.7F, 0.8F));
+		colors.Add (new Color(0.9F, 0.3F, 0.3F));
+		colors.Add (new Color(0.74F, 0.13F, 0.42F));
 
 		id = GetComponent<NetworkIdentity>().netId.Value;
-		gameObject.transform.GetChild (0).GetComponent<TextMesh> ().text = names [((int)(id - 1)) % 6];
+		GetComponent<Renderer> ().material.color = colors [((int)(id - 1)) % colors.Count];
+		gameObject.transform.GetChild (0).GetComponent<TextMesh> ().text = names [((int)(id - 1)) % names.Count];
 	}
 
 	//
