@@ -13,6 +13,11 @@
 // limitations under the License.
 
 using UnityEngine;
+<<<<<<< HEAD
+=======
+using UnityEngine.Networking;
+
+>>>>>>> network
 
 /// @ingroup Scripts
 /// This script provides head tracking support for a camera.
@@ -32,7 +37,11 @@ using UnityEngine;
 /// different targets (one of which may be the parent), in order to split where
 /// the rotation is applied from where the positional offset is applied.  Use the
 /// #trackRotation and #trackPosition properties in this case.
+<<<<<<< HEAD
 public class CardboardHead : MonoBehaviour {
+=======
+public class CardboardHead : NetworkBehaviour {
+>>>>>>> network
   /// Determines whether to apply the user's head rotation to this gameobject's
   /// orientation.  True means to update the gameobject's orientation with the
   /// user's head rotation, and false means don't modify the gameobject's orientation.
@@ -78,10 +87,23 @@ public class CardboardHead : MonoBehaviour {
   private bool updated;
 
   void Update() {
+<<<<<<< HEAD
+=======
+
+>>>>>>> network
     updated = false;  // OK to recompute head pose.
     if (updateEarly) {
       UpdateHead();
     }
+<<<<<<< HEAD
+=======
+	if(Cardboard.SDK.Triggered){
+			//what you want to happen when the user touches the screen
+//			Camera.main.transform.Translate(Vector3.forward * Time.deltaTime);
+//			var playerObject = GameObject.Find("Player");
+//			playerObject.transform.Translate (Vector3.forward * Time.deltaTime);
+	}
+>>>>>>> network
   }
 
   // Normally, update head pose now.
@@ -89,6 +111,10 @@ public class CardboardHead : MonoBehaviour {
     UpdateHead();
   }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> network
   // Compute new head pose.
   private void UpdateHead() {
     if (updated) {  // Only one update per frame, please.
@@ -97,6 +123,11 @@ public class CardboardHead : MonoBehaviour {
     updated = true;
     Cardboard.SDK.UpdateState();
 
+<<<<<<< HEAD
+=======
+//	var playerObject = GameObject.Find("Player");
+
+>>>>>>> network
     if (trackRotation) {
       var rot = Cardboard.SDK.HeadPose.Orientation;
       if (target == null) {

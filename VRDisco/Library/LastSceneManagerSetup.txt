@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Cardboard/DemoScene/DemoScene.unity
+=======
+- path: Assets/Cardboard/DemoScene/Main Menu.unity
+>>>>>>> network
   isLoaded: 1
   isActive: 1

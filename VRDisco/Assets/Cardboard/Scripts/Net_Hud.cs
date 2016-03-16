@@ -5,7 +5,11 @@ using UnityEngine.Networking;
 using UnityEngine.VR;
 
 // phone IP : 10.150.40.208
+<<<<<<< HEAD
 //mac IP :10.150.12.108
+=======
+//mac IP :10.150.5.252
+>>>>>>> network
 public class Net_Hud : MonoBehaviour {
 	public string hostIP;
 	// Use this for initialization

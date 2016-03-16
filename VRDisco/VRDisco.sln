@@ -1,6 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+<<<<<<< HEAD
+=======
+Project("{C568A0D4-82D0-7A59-E8B9-4823DCD642AD}") = "VRDisco", "Assembly-CSharp-firstpass.csproj", "{95AC5BB1-412F-3C68-3211-385EF1140907}"
+EndProject
+>>>>>>> network
 Project("{C568A0D4-82D0-7A59-E8B9-4823DCD642AD}") = "VRDisco", "Assembly-CSharp.csproj", "{3C02AC32-8DFD-8961-B9C3-C86DA5E10F16}"
 EndProject
 Project("{C568A0D4-82D0-7A59-E8B9-4823DCD642AD}") = "VRDisco", "Assembly-CSharp-Editor.csproj", "{6518FDF4-9D39-5E3F-8173-07745EDFB5F1}"
@@ -11,6 +16,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+=======
+		{95AC5BB1-412F-3C68-3211-385EF1140907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95AC5BB1-412F-3C68-3211-385EF1140907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95AC5BB1-412F-3C68-3211-385EF1140907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95AC5BB1-412F-3C68-3211-385EF1140907}.Release|Any CPU.Build.0 = Release|Any CPU
+>>>>>>> network
 		{3C02AC32-8DFD-8961-B9C3-C86DA5E10F16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3C02AC32-8DFD-8961-B9C3-C86DA5E10F16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C02AC32-8DFD-8961-B9C3-C86DA5E10F16}.Release|Any CPU.ActiveCfg = Release|Any CPU
