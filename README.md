@@ -1,2 +1,2 @@
 # VRDisco
-UChicago Mobile Computing Project - Google Cardboard
+Google Cardboard Virtual Reality Disco
